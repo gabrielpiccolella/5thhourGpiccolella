@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Added HW3 Lists" />
+    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Playground Project ft Merlin the Wise">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Playground.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,16 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.HW1.executor": "Run",
-    "Python.HW2.executor": "Run",
-    "Python.HW3.executor": "Run",
-    "Python.Hello World.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.HW1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Hello World.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Playground.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/5th Hour/PycharmProjects/5th hour Gpiccolella&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\5th Hour\PycharmProjects\5th hour Gpiccolella" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -116,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724868117610</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Playground Project ft Merlin the Wise">
+      <option name="closed" value="true" />
+      <created>1725474004367</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725474004367</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,6 +143,7 @@
     <MESSAGE value="Added HW1" />
     <MESSAGE value="Added HW2" />
     <MESSAGE value="Added HW3 Lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added HW3 Lists" />
+    <MESSAGE value="Playground Project ft Merlin the Wise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Playground Project ft Merlin the Wise" />
   </component>
 </project>
