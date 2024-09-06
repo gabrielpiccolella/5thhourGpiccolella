@@ -18,13 +18,98 @@ print("Now listen here all far and wide, for I am the greatest wizard of all! Do
 x = input()
 
 if x == "No":
-    print("Perfect answer!, Good luck on your future adventures friend!")
+    print("Perfect answer!, Though you are too clever to be left alive!")
 
 elif x == "Yes":
-    print("What! How dare you! ")
+    print("What! How dare you!")
 
 else:
     print("You have failed the riddle! For this You shall be forever turned into a fiddle!")
+
+#Battle Time!
+print("You have entered a battle with the great Merlin the Wise!")
+print("Quickly! What do you do! ")
+input("A. Strike with Your Sword! B. Draw your Bow and Fire! C. Cast a spell towards the Wizard!")
+
+#Types of Attacks if statements
+x = input()
+
+if x == "A":
+    print("You draw your sword and strike the Wizard!")
+
+elif x == "B":
+    print("Your arrow pierces the wind and connects with the Wizard!")
+
+else:
+    print("Your spell connects with the Wizard! Scorching his robes!")
+
+#attack damage and randomizer
+
+import random
+
+attackList = [6,12,24]
+
+x = (random.choice(attackList))
+
+print(x)
+
+if x == 12:
+    print("Crit!")
+
+elif x > 12:
+    print("Super Crit!")
+
+else:
+    print("Hit!")
+
+#second round of attacks
+print("The Wizard is relentless and won't admit defeat! Quickly one more strike should do it!")
+
+input("A. Slash the Wizards Heart! B. Draw your bow and Pierce the Wizards Chest! C. Annihilate him with your spell!")
+
+x = input()
+
+if x == "A":
+    print("Your sword strikes Merlin down! I have been bested! He States!")
+
+elif x == "B":
+    print("A whistle splits the sky as your arrow plummets into his chest! My Spells weren't enough! He Says!")
+
+else:
+    print("Your spell connects with the Wizard! He turns into a pile of ash infront of you!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
