@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Playground Project ft Merlin the Wise, Added if statements and nearly finished">
+    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Playground HW, Merlin the Wise Game Finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Playground.py" afterDir="false" />
     </list>
@@ -142,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725560317260</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Playground HW, Merlin the Wise Game Finished">
+      <option name="closed" value="true" />
+      <created>1725646680844</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725646680844</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -153,6 +161,7 @@
     <MESSAGE value="Added HW3 Lists" />
     <MESSAGE value="Playground Project ft Merlin the Wise" />
     <MESSAGE value="Playground Project ft Merlin the Wise, Added if statements and nearly finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Playground Project ft Merlin the Wise, Added if statements and nearly finished" />
+    <MESSAGE value="Playground HW, Merlin the Wise Game Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Playground HW, Merlin the Wise Game Finished" />
   </component>
 </project>

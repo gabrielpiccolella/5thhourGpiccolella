@@ -1,3 +1,8 @@
+#Gabriel Piccolella
+#5th Hour
+#Playground HW
+
+
 #Defining the Name of the Adventurer
 print("Hello Adventurer!")
 print("My name is Merlin the Wise, tell me how shall i refer to thee?")
@@ -76,7 +81,7 @@ elif x == "B":
     print("A whistle splits the sky as your arrow plummets into his chest! My Spells weren't enough! He Says!")
 
 else:
-    print("Your spell connects with the Wizard! He turns into a pile of ash infront of you!")
+    print("Your spell connects with the Wizard! He turns into a pile of ash in front of you!")
 
 
 
