@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Playground HW, Merlin the Wise Game Finished Added Name Hour and Assignment Name">
-      <change afterPath="$PROJECT_DIR$/HW4.py" afterDir="false" />
+    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Added HW4">
+      <change afterPath="$PROJECT_DIR$/Scenario 1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     "Python.HW4.executor": "Run",
     "Python.Hello World.executor": "Run",
     "Python.Playground.executor": "Run",
+    "Python.Scenario 1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/5th Hour/PycharmProjects/5th hour Gpiccolella"
@@ -159,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725989874981</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added HW4">
+      <option name="closed" value="true" />
+      <created>1726164828734</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726164828734</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,6 +181,7 @@
     <MESSAGE value="Playground Project ft Merlin the Wise, Added if statements and nearly finished" />
     <MESSAGE value="Playground HW, Merlin the Wise Game Finished" />
     <MESSAGE value="Playground HW, Merlin the Wise Game Finished Added Name Hour and Assignment Name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Playground HW, Merlin the Wise Game Finished Added Name Hour and Assignment Name" />
+    <MESSAGE value="Added HW4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HW4" />
   </component>
 </project>
