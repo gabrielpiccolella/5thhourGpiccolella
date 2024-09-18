@@ -55,27 +55,27 @@ fallGuys = {
 }
 
 #Changes for Yellow Fall Guy
-newAttackY = input("Enter a new Attack for Yellow: ")
+newAttackY = int(input("Enter a new Attack for Yellow: "))
 
 fallGuys["Yellow"]["Attack"] = newAttackY
 
 #Changes for Blue Fall Guy
-newAttackB = input("Enter a new Attack for Blue: ")
+newAttackB = int(input("Enter a new Attack for Blue: "))
 
 fallGuys["Blue"]["Attack"] = newAttackB
 
 #Changes for Red Fall Guy
-newAttackR = input("Enter a new Attack For Red: ")
+newAttackR = int(input("Enter a new Attack For Red: "))
 
 fallGuys["Red"]["Attack"] = newAttackR
 
 #Changes for White Fall Guy
-newAttackW = input("Enter a new Attack For White: ")
+newAttackW = int(input("Enter a new Attack For White: "))
 
 fallGuys["White"]["Attack"] = newAttackW
 
 #Changes for Purple Fall Guy
-newAttackC = input("Enter a new Attack For Chrome: ")
+newAttackC = int(input("Enter a new Attack For Chrome: "))
 
 fallGuys["Chrome"]["Attack"] = newAttackC
 
@@ -111,7 +111,6 @@ elif x == "No":
 
 else:
     print("Error")
-
 
 
 
