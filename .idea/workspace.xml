@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Scenario 1 Fall Guys Stat List, added ints">
-      <change afterPath="$PROJECT_DIR$/Scenario 2.py" afterDir="false" />
+    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Added Scenario 2">
+      <change afterPath="$PROJECT_DIR$/HW5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "Python.HW2.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
+    "Python.HW5.executor": "Run",
     "Python.Hello World.executor": "Run",
     "Python.Playground.executor": "Run",
     "Python.Scenario 1.executor": "Run",
@@ -185,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726681770021</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added Scenario 2">
+      <option name="closed" value="true" />
+      <created>1727201848298</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727201848298</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,6 +210,7 @@
     <MESSAGE value="Added HW4" />
     <MESSAGE value="Scenario 1 Fall Guys Stat List" />
     <MESSAGE value="Scenario 1 Fall Guys Stat List, added ints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scenario 1 Fall Guys Stat List, added ints" />
+    <MESSAGE value="Added Scenario 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Scenario 2" />
   </component>
 </project>
