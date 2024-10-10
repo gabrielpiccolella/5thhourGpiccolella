@@ -43,20 +43,22 @@ from random import random
 import random
 
 
+
 #Party Dictionary Goes Here
 
-partyAttackDictionary = {
+
+partyAttackDictionary = { #Created Party Attack Dictionary
     "Greatsword" :{
-        "Damage": random.randint(5,15),
+        "Damage": random.randint(1,6) ++ random.randint(1,6) + 3
     },
     "Mace" :{
-        "Damage": random.randint(3,8),
+        "Damage": random.randint(1,6) ++ 3
     },
     "Firebolt": {
-        "Damage": random.randint(1, 10),
+        "Damage": random.randint(1,10)
     },
     "ShortBow":{
-        "Damage": random.randint(5,10),
+        "Damage": random.randint(1,6) ++ 4
     }
 
 
@@ -68,49 +70,53 @@ partyDictionary = { #Imported Party Dictionary
         "Class" : "Fighter",
         "Background" : "Soldier",
         "Health" : 12,
-        "AC" : "17",
-        "Damage" : (partyAttackDictionary["Greatsword"]["Damage"])
+        "AC" : 17,
+        "Damage" : (partyAttackDictionary["Greatsword"]["Damage"]),
+        "ToHit": random.randint(1,20) ++ 6
     },
     "Shadowheart" : {
         "Race" : "Half-Elf",
         "Class" : "Cleric",
         "Background" : "Acolyte",
         "Health" : 10,
-        "AC" : "14",
-        "Damage" : (partyAttackDictionary["Mace"]["Damage"])
+        "AC" : 14,
+        "Damage" : (partyAttackDictionary["Mace"]["Damage"]),
+        "ToHit": random.randint(1,20) ++ 3
     },
     "Gale" : {
         "Race" : "Human",
         "Class" : "Wizard",
         "Background" : "Sage",
         "Health" : 8,
-        "AC" : "14",
-        "Damage" : (partyAttackDictionary["Firebolt"]["Damage"])
+        "AC" : 14,
+        "Damage" : (partyAttackDictionary["Firebolt"]["Damage"]),
+        "ToHit": random.randint(1,20) ++ 2
     },
     "Astarion" : {
         "Race" : "High Elf",
         "Class" : "Rogue",
         "Background" : "Charlatan",
         "Health" : 10,
-        "AC" : "14",
-        "Damage" : (partyAttackDictionary["ShortBow"]["Damage"])
+        "AC" : 14,
+        "Damage" : (partyAttackDictionary["ShortBow"]["Damage"]),
+        "ToHit": random.randint(1,20) ++ 5
     }
 }
 
 
 #Enemy Dictionary Goes Here
-enemyWeaponDictionary = {
+enemyWeaponDictionary = { #Created enemy attack dictionary.
     "Scimitar":{
-        "Damage" : random.randint(3,8),
+        "Damage" : random.randint(1,6) ++ 2
     },
     "Claws":{
-        "Damage": random.randint(3,6),
+        "Damage": random.randint(1,4) ++ 2
     },
     "GreatClub": {
-        "Damage": random.randint(6,20),
+        "Damage": random.randint(1,8) ++ random.randint(1,8) ++ 8
     },
     "Bite":{
-        "Damage": random.randint(5,15),
+        "Damage": random.randint(1,6) ++ random.randint(1,6) ++ 3
     }
 
 }
@@ -118,26 +124,35 @@ enemyDictionary = { #Created Enemy Dictionary
     "Goblin" :{
         "Health": 11,
         "AC": 12,
-        "Damage": (enemyWeaponDictionary["Scimitar"]["Damage"])
+        "Damage": (enemyWeaponDictionary["Scimitar"]["Damage"]),
+        "ToHit": random.randint(1,20) ++ 3
     },
     "Dust Mephit" :{
         "Health": 12,
         "AC": 13,
-        "Damage": (enemyWeaponDictionary["Claws"]["Damage"])
+        "Damage": (enemyWeaponDictionary["Claws"]["Damage"]),
+        "ToHit": random.randint(1,20) ++ 4
     },
     "Ogre" :{
         "Health": 54,
         "AC": 14,
-        "Damage": (enemyWeaponDictionary["GreatClub"]["Damage"])
+        "Damage": (enemyWeaponDictionary["GreatClub"]["Damage"]),
+        "ToHit": random.randint(1,20) ++ 6
     },
     "Worg" :{
         "Health" : 22,
         "AC" : 13,
-        "Damage" : (enemyWeaponDictionary["Bite"]["Damage"])
+        "Damage" : (enemyWeaponDictionary["Bite"]["Damage"]),
+        "ToHit": random.randint(1,20) ++ 5
     }
 
 }
 
 #Combat Code Goes Here
 
-print(enemyDictionary["Goblin"]["Damage"])
+print(input("Choose your party member, (LaeZel, Astarion, Gale, Shadowheart)"))
+
+
+
+
+
