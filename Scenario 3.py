@@ -72,7 +72,7 @@ partyDictionary = { #Imported Party Dictionary
         "Health" : 12,
         "AC" : 17,
         "Damage" : (partyAttackDictionary["Greatsword"]["Damage"]),
-        "ToHit": random.randint(1,20) ++ 6
+        "Attack Modifier": 6
     },
     "Shadowheart" : {
         "Race" : "Half-Elf",
@@ -81,7 +81,7 @@ partyDictionary = { #Imported Party Dictionary
         "Health" : 10,
         "AC" : 14,
         "Damage" : (partyAttackDictionary["Mace"]["Damage"]),
-        "ToHit": random.randint(1,20) ++ 3
+        "Attack Modifier": 3
     },
     "Gale" : {
         "Race" : "Human",
@@ -90,7 +90,7 @@ partyDictionary = { #Imported Party Dictionary
         "Health" : 8,
         "AC" : 14,
         "Damage" : (partyAttackDictionary["Firebolt"]["Damage"]),
-        "ToHit": random.randint(1,20) ++ 2
+        "Attack Modifier": 2
     },
     "Astarion" : {
         "Race" : "High Elf",
@@ -99,7 +99,7 @@ partyDictionary = { #Imported Party Dictionary
         "Health" : 10,
         "AC" : 14,
         "Damage" : (partyAttackDictionary["ShortBow"]["Damage"]),
-        "ToHit": random.randint(1,20) ++ 5
+        "Attack Modifier": 5
     }
 }
 
@@ -125,32 +125,56 @@ enemyDictionary = { #Created Enemy Dictionary
         "Health": 11,
         "AC": 12,
         "Damage": (enemyWeaponDictionary["Scimitar"]["Damage"]),
-        "ToHit": random.randint(1,20) ++ 3
+        "Attack Modifier": 3
     },
     "Dust Mephit" :{
         "Health": 12,
         "AC": 13,
         "Damage": (enemyWeaponDictionary["Claws"]["Damage"]),
-        "ToHit": random.randint(1,20) ++ 4
+        "Attack Modifier": 4
     },
     "Ogre" :{
         "Health": 54,
         "AC": 14,
         "Damage": (enemyWeaponDictionary["GreatClub"]["Damage"]),
-        "ToHit": random.randint(1,20) ++ 6
+        "Attack Modifier": 6
     },
     "Worg" :{
         "Health" : 22,
         "AC" : 13,
         "Damage" : (enemyWeaponDictionary["Bite"]["Damage"]),
-        "ToHit": random.randint(1,20) ++ 5
+        "Attack Modifier": 5
     }
 
 }
 
 #Combat Code Goes Here
+party_attack_roll = (partyDictionary["LaeZel"]["Attack Modifier"]) + random.randint(1,20)
 
-print(input("Choose your party member, (LaeZel, Astarion, Gale, Shadowheart)"))
+print("You rolled a", party_attack_roll)
+
+if party_attack_roll >= (enemyDictionary["Goblin"]["AC"]):
+    print(enemyDictionary["Goblin"]["Health"] -- (partyDictionary["LaeZel"]["Damage"]))
+
+if (enemyDictionary["Goblin"]["Health"]) <= 0:
+    print("Goblin is dead!")
+else:
+    print("Goblin is still alive!")
+
+enemy_attack_roll = (enemyDictionary["Goblin"]["Attack Modifier"]) + random.randint(1, 20)
+
+print("Goblin rolled a", enemy_attack_roll)
+
+if enemy_attack_roll >= (partyDictionary["LaeZel"]["AC"]):
+    print((partyDictionary["LaeZel"]["Health"]) - (enemyDictionary["Goblin"]["Damage"]))
+
+if (partyDictionary["LaeZel"]["Health"]) <= 0:
+    print("LaeZel is dead!")
+else:
+    print("LaeZel is still alive!")
+
+
+
 
 
 
