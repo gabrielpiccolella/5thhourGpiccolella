@@ -49,16 +49,16 @@ import random
 
 partyAttackDictionary = { #Created Party Attack Dictionary
     "Greatsword" :{
-        "Damage": random.randint(1,6) ++ random.randint(1,6) + 3
+        "Damage": random.randint(1,6) + random.randint(1,6) + 3
     },
     "Mace" :{
-        "Damage": random.randint(1,6) ++ 3
+        "Damage": random.randint(1,6) + 3
     },
     "Firebolt": {
         "Damage": random.randint(1,10)
     },
     "ShortBow":{
-        "Damage": random.randint(1,6) ++ 4
+        "Damage": random.randint(1,6) + 4
     }
 
 
@@ -107,16 +107,16 @@ partyDictionary = { #Imported Party Dictionary
 #Enemy Dictionary Goes Here
 enemyWeaponDictionary = { #Created enemy attack dictionary.
     "Scimitar":{
-        "Damage" : random.randint(1,6) ++ 2
+        "Damage" : random.randint(1,6) + 2
     },
     "Claws":{
-        "Damage": random.randint(1,4) ++ 2
+        "Damage": random.randint(1,4) + 2
     },
     "GreatClub": {
-        "Damage": random.randint(1,8) ++ random.randint(1,8) ++ 8
+        "Damage": random.randint(1,8) + random.randint(1,8) + 8
     },
     "Bite":{
-        "Damage": random.randint(1,6) ++ random.randint(1,6) ++ 3
+        "Damage": random.randint(1,6) + random.randint(1,6) + 3
     }
 
 }
@@ -154,24 +154,28 @@ party_attack_roll = (partyDictionary["LaeZel"]["Attack Modifier"]) + random.rand
 print("You rolled a", party_attack_roll)
 
 if party_attack_roll >= (enemyDictionary["Goblin"]["AC"]):
-    print(enemyDictionary["Goblin"]["Health"] -- (partyDictionary["LaeZel"]["Damage"]))
-
-if (enemyDictionary["Goblin"]["Health"]) <= 0:
-    print("Goblin is dead!")
+    enemyDictionary["Goblin"]["Health"] -= partyDictionary["LaeZel"]["Damage"]
+    if (enemyDictionary["Goblin"]["Health"]) <= 0:
+        print("Goblin is dead!"),
+        exit()
+    else:
+        print("Goblin is still alive!"),
 else:
-    print("Goblin is still alive!")
+    print("Attack Misses!")
+
 
 enemy_attack_roll = (enemyDictionary["Goblin"]["Attack Modifier"]) + random.randint(1, 20)
 
 print("Goblin rolled a", enemy_attack_roll)
 
 if enemy_attack_roll >= (partyDictionary["LaeZel"]["AC"]):
-    print((partyDictionary["LaeZel"]["Health"]) - (enemyDictionary["Goblin"]["Damage"]))
+    partyDictionary["LaeZel"]["Health"] -= enemyDictionary["Goblin"]["Damage"]
+    if (partyDictionary["LaeZel"]["Health"]) <= 0:
+        print("LaeZel is dead!"),
+        exit()
+    else:
+        print("LaeZel is still alive!")
 
-if (partyDictionary["LaeZel"]["Health"]) <= 0:
-    print("LaeZel is dead!")
-else:
-    print("LaeZel is still alive!")
 
 
 
