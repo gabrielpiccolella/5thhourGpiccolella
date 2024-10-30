@@ -23,10 +23,10 @@ while i % 2 == 0:
 
 #3. Create a while loop that repeats until the user
 #inputs the number 0.
-n = input("enter a number")
+n = int(input("enter a number"))
 
 while n != 0:
-    n = input("enter a number")
-    print("User input is zero")
-    break
+    print(n)
+    n = int(input("enter a new number"))
+
 
