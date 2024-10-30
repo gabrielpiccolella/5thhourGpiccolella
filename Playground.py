@@ -2,7 +2,7 @@
 #5th Hour
 #Playground HW
 
-
+"""
 #Defining the Name of the Adventurer
 print("Hello Adventurer!")
 print("My name is Merlin the Wise, tell me how shall i refer to thee?")
@@ -82,6 +82,69 @@ elif x == "B":
 
 else:
     print("Your spell connects with the Wizard! He turns into a pile of ash in front of you!")
+"""
+
+starterdex = {
+    "Chikorita" : {
+        "HP" : 45,
+        "Att" : 49,
+        "Def" : 65,
+        "S.Att": 49,
+        "S.Def": 65,
+        "Spd" : 45,
+        "Type" : "Grass",
+        "Moves": ["Tackle", "Vine Whip"]
+},
+    "Cyndaquil": {
+        "HP": 39,
+        "Att": 52,
+        "Def": 43,
+        "S.Att": 60,
+        "S.Def": 50,
+        "Spd": 65,
+        "Type": "Fire",
+        "Moves": ["Tackle", "Ember"]
+},
+    "Totodile": {
+        "HP": 50,
+        "Att": 65,
+        "Def": 64,
+        "S.Att": 44,
+        "S.Def": 48,
+        "Spd": 43,
+        "Type": "Water",
+        "Moves": ["Tackle", "Water Gun"]
+},
+
+}
+
+moves = {
+    "Tackle": {
+        "Damage": 40,
+        "Type": "Normal",
+        "Accuracy": 100,
+        "Effect": "None",
+    },
+    "Vine Whip": {
+        "Damage": 45,
+        "Type": "Grass",
+        "Accuracy": 100,
+        "Effect": "None",
+    },
+    "Ember": {
+        "Damage": 40,
+        "Type": "Fire",
+        "Accuracy": 100,
+        "Effect": "Burn",
+    },
+    "Water Gun": {
+        "Damage": 40,
+        "Type": "Water",
+        "Accuracy": 100,
+        "Effect": "None",
+    },
+}
+
 
 
 
