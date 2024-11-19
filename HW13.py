@@ -19,6 +19,6 @@ for i in intList:
     else:
         oddNumbers += 1
 
-# Print the total count of even and odd numbers.
+# Print the total count of even and odd numbers
 print("Amount of even numbers is", evenNumbers)
 print("Amount of odd numbers is", oddNumbers)

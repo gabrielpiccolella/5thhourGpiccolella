@@ -30,5 +30,5 @@ def factorial(userinput):
         for i in range(1, userinput + 1):
             result *= i
         return result
-#4. Print the factorial.
+#4. Print the factorial
 print(factorial(userinput))
