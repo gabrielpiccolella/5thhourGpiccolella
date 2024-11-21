@@ -17,20 +17,20 @@ numberOfPlayers = int(input("How many players are in the game?"))
 
 ratings = []
 
-for i in range(0, + numberOfPlayers):
-    rat = int(input("How would you like to rate the current model 1 - 5?: "))
-    if rat > 5 or rat < 1:
-        print("Error! Please enter a valid number!")
+for i in range(numberOfPlayers):
+    rat = int(input(f"Player {i + 1} rate the current model (1 - 5) "))
+
+    if rat < 1 or rat > 5:
+        print("Error, please enter a number between 1 and 5.")
+    else:
         ratings.append(rat)
 
-
-average = statistics.mean(ratings)
-
-
-
-print("Here are your ratings", ratings)
-
-print("Here is your average rating", average)
+if len(ratings) > 0:
+    average = statistics.mean(ratings)
+    print("Here are your ratings", ratings)
+    print("Here is your average rating", average)
+else:
+    print("Invalid ratings entered")
 
 
 
