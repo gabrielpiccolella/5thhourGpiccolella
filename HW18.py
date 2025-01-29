@@ -17,8 +17,12 @@ def random_bean():
     random_bean_choice = random.choice(beanBag)
     print(random_bean_choice)
     beanBag.remove(random_bean_choice)
-
-    random_bean_again()
+    if beanBag:
+        print("List is not empty")
+        random_bean_again()
+    else:
+        print("List is empty ")
+        exit()
 
 
 #4. Create a def function that asks if you want to pull another bean out of the bag and, if yes, repeats the #3 def function
