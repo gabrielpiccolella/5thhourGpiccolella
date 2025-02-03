@@ -8,15 +8,24 @@ import random
 #He wants you to make a function that rolls 4 six-sided dice (d6), sorts them from highest to lowest, and then adds the
 #highest 3 together. He then wants you to add that result to a list outside the function. He wants you to run that function
 #5 more times (six times total) and print all six stats.
+
+final_stats = []
+
 def stat_roll():
     for i in range(6):
-        stat1 = [random.randint(1,6),random.randint(1,6),random.randint(1,6),random.randint(1,6)]
+        stat_roll = [random.randint(1,6),random.randint(1,6),random.randint(1,6),random.randint(1,6)]
+        stat_roll.sort(reverse=True)
+        final_stats.append(stat_roll[0] + stat_roll[1] + stat_roll[2])
 
-        print(stat1)
-        stat1.sort(reverse=True)
-        print(stat1[0]+stat1[1]+stat1[2])
 
 stat_roll()
+print(final_stats)
+
+
+
+
+
+
 
 
 

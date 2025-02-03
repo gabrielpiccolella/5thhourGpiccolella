@@ -3,8 +3,8 @@
 #Assignment: Scenario 7
 
 #Import all of Scenario 6 here
-from
-
+from SC6 import stat_roll, final_stats
+stat_roll()
 
 
 
@@ -14,10 +14,12 @@ from
 listAverage = 0
 
 def final_average():
-    global listAverage
-    listAverage = #Calculate the sum of the list by the length of the list here
-    return listAverage
+    if isinstance(final_stats, list):
+        listAverage = sum(final_stats) / len(final_stats) if final_stats else 0
+        return listAverage
+    else:
+        return "final_stats is not a list"
 
-final_average()
 
-print(listAverage)
+average = final_average()
+print("here is your final average" ,average)

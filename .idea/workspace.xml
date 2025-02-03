@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment=" did Homework 19">
-      <change afterPath="$PROJECT_DIR$/Scenario 6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scenario 7.py" afterDir="false" />
+    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="DId SCenario 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenario 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/SC6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenario 7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +71,13 @@
     "Python.HW9.executor": "Run",
     "Python.Hello World.executor": "Run",
     "Python.Playground.executor": "Run",
+    "Python.SC6.executor": "Run",
     "Python.Scenario 1.executor": "Run",
     "Python.Scenario 2.executor": "Run",
     "Python.Scenario 3.executor": "Run",
     "Python.Scenario 4.executor": "Run",
     "Python.Scenario 6.executor": "Run",
+    "Python.Scenario 7.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/5th Hour/PycharmProjects/5th hour Gpiccolella"
@@ -430,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738349168043</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="DId SCenario 6">
+      <option name="closed" value="true" />
+      <created>1738608655458</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1738608655458</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -445,7 +455,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added HW5" />
     <MESSAGE value="Added HW6" />
     <MESSAGE value="Added HW7" />
     <MESSAGE value="Added changes to Scenario 3" />
@@ -470,6 +479,7 @@
     <MESSAGE value="almost did Homework 18" />
     <MESSAGE value=" did Homework 18" />
     <MESSAGE value=" did Homework 19" />
-    <option name="LAST_COMMIT_MESSAGE" value=" did Homework 19" />
+    <MESSAGE value="DId SCenario 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="DId SCenario 6" />
   </component>
 </project>
