@@ -7,10 +7,6 @@ from SC6 import stat_roll, final_stats
 stat_roll()
 
 
-
-
-
-
 listAverage = 0
 
 def final_average():
