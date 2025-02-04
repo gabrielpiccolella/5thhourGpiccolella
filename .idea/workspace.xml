@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="DId SCenario 6">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenario 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/SC6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenario 7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 7.py" afterDir="false" />
-    </list>
+    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="DId SCenario 6 and 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -440,7 +436,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738608655458</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="DId SCenario 6 and 7">
+      <option name="closed" value="true" />
+      <created>1738610186924</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1738610186924</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -455,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added HW6" />
     <MESSAGE value="Added HW7" />
     <MESSAGE value="Added changes to Scenario 3" />
     <MESSAGE value="Added Scenario 3" />
@@ -480,6 +483,7 @@
     <MESSAGE value=" did Homework 18" />
     <MESSAGE value=" did Homework 19" />
     <MESSAGE value="DId SCenario 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="DId SCenario 6" />
+    <MESSAGE value="DId SCenario 6 and 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="DId SCenario 6 and 7" />
   </component>
 </project>

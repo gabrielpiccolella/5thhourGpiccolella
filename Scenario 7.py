@@ -15,7 +15,7 @@ listAverage = 0
 
 def final_average():
     if isinstance(final_stats, list):
-        listAverage = sum(final_stats) / len(final_stats) if final_stats else 0
+        listAverage = sum(final_stats) / len(final_stats)
         return listAverage
     else:
         return "final_stats is not a list"
