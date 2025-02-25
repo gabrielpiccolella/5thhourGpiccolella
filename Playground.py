@@ -86,27 +86,35 @@ else:
 
 
 import random
+def wheel_spin():
+    spin = random.randint(1,6)
+    print(spin)
 
-spin = random.randint(1,6)
-print(spin)
+    print("Have a chance at luck and possibly win fortunes!")
 
-print("Have a chance at luck and possibly win fortunes!")
+    playerSpin = random.randint(1,6)
+    print(playerSpin)
 
-playerSpin = random.randint(1,6)
-print(playerSpin)
+    while playerSpin > spin or playerSpin < spin:
+        print("Luck is on your side!")
+        exit()
 
-while playerSpin > spin or playerSpin < spin:
-    print("Luck is on your side!")
-    exit()
+    if playerSpin == spin:
+        print("BOOM! You lost!")
+        exit()
 
-if playerSpin == spin:
-    print("BOOM! You lost!")
-    exit()
+import time
+def stop_watch():
+    start_time = time.time()
 
+    input("Press Enter to stop the stopwatch...")
 
+    end_time = time.time()
 
+    elapsed_time = end_time - start_time
+    print(f"Elapsed time: {elapsed_time} seconds")
 
-
-
+def hangman_game():
+    hangman_word_list = [""]
 
 
