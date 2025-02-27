@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Did hw 20">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Playground.py" afterDir="false" />
-    </list>
+    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="working on playground" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -481,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740077692063</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="working on playground">
+      <option name="closed" value="true" />
+      <created>1740511080112</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1740511080112</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added changes to Scenario 3" />
     <MESSAGE value="Added Scenario 3" />
     <MESSAGE value="Added more to Scenario 3" />
     <MESSAGE value="Finished Scenario 3" />
@@ -521,6 +525,7 @@
     <MESSAGE value="DId SCenario 6" />
     <MESSAGE value="DId SCenario 6 and 7" />
     <MESSAGE value="Did hw 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did hw 20" />
+    <MESSAGE value="working on playground" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on playground" />
   </component>
 </project>
