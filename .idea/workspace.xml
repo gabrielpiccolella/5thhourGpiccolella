@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Finished hw23 working on scenario8" />
+    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Finished hw23 finished  scenario8">
+      <change afterPath="$PROJECT_DIR$/HW24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +66,7 @@
     "Python.HW21.executor": "Run",
     "Python.HW22.executor": "Run",
     "Python.HW23.executor": "Run",
+    "Python.HW24.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
     "Python.HW5.executor": "Run",
@@ -79,6 +83,7 @@
     "Python.Scenario 4.executor": "Run",
     "Python.Scenario 6.executor": "Run",
     "Python.Scenario 7.executor": "Run",
+    "Python.Scenario8.executor": "Run",
     "Python.python roulette wip.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -105,14 +110,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723837948295</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added HW2">
-      <option name="closed" value="true" />
-      <created>1724264377301</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1724264377301</updated>
     </task>
     <task id="LOCAL-00006" summary="Added HW3 Lists">
       <option name="closed" value="true" />
@@ -498,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741630764415</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Finished hw23 finished  scenario8">
+      <option name="closed" value="true" />
+      <created>1741714998030</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1741714998031</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -513,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Homework 8 (Changed name)" />
     <MESSAGE value="Added Homework 9" />
     <MESSAGE value="Added Homework 10" />
     <MESSAGE value="Finished HW 10 and HW 11" />
@@ -538,6 +542,7 @@
     <MESSAGE value="Finished hw21" />
     <MESSAGE value="Finished hw22" />
     <MESSAGE value="Finished hw23 working on scenario8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished hw23 working on scenario8" />
+    <MESSAGE value="Finished hw23 finished  scenario8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished hw23 finished  scenario8" />
   </component>
 </project>
