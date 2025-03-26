@@ -45,7 +45,7 @@ elif gamer == 4:
 
 #5. Determine who lost health by comparing the current health to the max_health and heal that character object by calling your healing function to that object and then print their health afterwards.\
 if warrior.health == warrior.max_health:
-    print("warrior health is now at its maximum")
+    print("Warrior health is now at its maximum")
 elif warrior.health < warrior.max_health:
     warrior.heal_time()
     print(f"Here is the warriors new health," , warrior.health)
