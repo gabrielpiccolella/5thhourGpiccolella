@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Finished hw24">
-      <change afterPath="$PROJECT_DIR$/HW25.py" afterDir="false" />
+    <list default="true" id="f90fe481-0ea0-45b0-8b91-b65fc3ee9e66" name="Changes" comment="Finished hw25">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +66,7 @@
     &quot;Python.HW22.executor&quot;: &quot;Run&quot;,
     &quot;Python.HW23.executor&quot;: &quot;Run&quot;,
     &quot;Python.HW24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW25.executor&quot;: &quot;Run&quot;,
     &quot;Python.HW3.executor&quot;: &quot;Run&quot;,
     &quot;Python.HW4.executor&quot;: &quot;Run&quot;,
     &quot;Python.HW5.executor&quot;: &quot;Run&quot;,
@@ -110,14 +110,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723837948295</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Playground Project ft Merlin the Wise, Added if statements and nearly finished">
-      <option name="closed" value="true" />
-      <created>1725560317260</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1725560317260</updated>
     </task>
     <task id="LOCAL-00009" summary="Playground HW, Merlin the Wise Game Finished">
       <option name="closed" value="true" />
@@ -503,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743011040729</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Finished hw25">
+      <option name="closed" value="true" />
+      <created>1743616006685</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1743616006685</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Homework 10" />
     <MESSAGE value="Finished HW 10 and HW 11" />
     <MESSAGE value="Finished HW 10 and HW 11 and edited playground" />
     <MESSAGE value="Added HW12" />
@@ -543,6 +542,7 @@
     <MESSAGE value="Finished hw23 working on scenario8" />
     <MESSAGE value="Finished hw23 finished  scenario8" />
     <MESSAGE value="Finished hw24" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished hw24" />
+    <MESSAGE value="Finished hw25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished hw25" />
   </component>
 </project>
